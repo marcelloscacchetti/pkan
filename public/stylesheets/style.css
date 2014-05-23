@@ -67,4 +67,9 @@
 
 .cardlist {
     padding: 0px;
+    height: 100%;
+}
+
+.cardcolumncontainer {
+    height: 100%;
 }

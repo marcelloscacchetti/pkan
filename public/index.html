@@ -16,8 +16,18 @@
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
+    <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+
     <!-- Latest compiled and minified JavaScript -->
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+    <script>
+        $(function() {
+            $( "#cardstodo, #cardsdoing, #cardsdone" ).sortable({
+                connectWith: ".connectedSortable"
+            }).disableSelection();
+        });
+    </script>
 
 </head>
 <body>
@@ -25,7 +35,7 @@
         <div class="row">
 
             <div class="col-md-3 boardcolumn centertext">
-                <div class="row">
+                <div class="row cardcolumncontainer">
                     <div class="col-md-10 columnheadernamecontainer">
                         <h3 class="columnheadernamesize">
                             <span class="label label-primary columnheadername">TODO</span>
@@ -36,34 +46,33 @@
                             <span class="label label-primary columnheaderadd">+</span>
                         </h3>
                     </div>
+                    <ul id="cardstodo" class="cardlist connectedSortable">
+                        <li class="card">
+                            <div class="cardcontentcontainer">
+                                <h4 class="cardnamesize"><span class="label label-default columnheadername">Sample Card</span></h4>
+                                <div class="carddescriptioncontainer">
+                                    Sample card description
+                                </div>
+                            </div>
+                        </li>
+                        <li class="card">
+                            <div class="cardcontentcontainer">
+                                <h4 class="cardnamesize"><span class="label label-default columnheadername">Sample card with very long...</span></h4>
+                                <div class="carddescriptioncontainer">
+                                    Sample card description
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-                <ul class="cardlist">
-                    <li class="card">
-                        <div class="cardcontentcontainer">
-                            <h4 class="cardnamesize"><span class="label label-default columnheadername">Sample Card</span></h4>
-                            <div class="carddescriptioncontainer">
-                                Sample card description
-                            </div>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="cardcontentcontainer">
-                            <h4 class="cardnamesize"><span class="label label-default columnheadername">Sample card with very long...</span></h4>
-                            <div class="carddescriptioncontainer">
-                                Sample card description
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-
-
              </div>
+
             <!-- Column separator -->
             <div class="col-md-1"></div>
 
             <!-- Doing column -->
             <div class="col-md-3 boardcolumn centertext">
-                <div class="row">
+                <div class="row cardcolumncontainer">
                     <div class="col-md-10 columnheadernamecontainer">
                         <h3 class="columnheadernamesize">
                             <span class="label label-primary columnheadername">DOING</span>
@@ -74,6 +83,8 @@
                             <span class="label label-primary columnheaderadd">+</span>
                         </h3>
                     </div>
+                    <ul id="cardsdoing" class="cardlist connectedSortable">
+                    </ul>
                 </div>
              </div>
 
@@ -82,7 +93,7 @@
 
             <!-- Done column -->
             <div class="col-md-3 boardcolumn centertext">
-                <div class="row">
+                <div class="row cardcolumncontainer">
                     <div class="col-md-10 columnheadernamecontainer">
                         <h3 class="columnheadernamesize">
                             <span class="label label-primary columnheadername">DONE</span>
@@ -93,6 +104,16 @@
                             <span class="label label-primary columnheaderadd">+</span>
                         </h3>
                     </div>
+                    <ul id="cardsdone" class="cardlist connectedSortable">
+                        <li class="card">
+                            <div class="cardcontentcontainer">
+                                <h4 class="cardnamesize"><span class="label label-default columnheadername">Sample Card</span></h4>
+                                <div class="carddescriptioncontainer">
+                                    Sample card description
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
