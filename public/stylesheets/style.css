@@ -1,0 +1,66 @@
+.container {
+    margin-top: 40px;
+}
+.centertext {
+    text-align: center;
+}
+
+.boardcolumn {
+    border: 1px solid;
+    border-color: #848484;
+    background-color: #e7e7e7;
+    border-radius: 5px;
+}
+.columnheadernamecontainer {
+    padding-left: 5px;
+    padding-right: 0px;
+}
+
+.columnheadername {
+    display: inline-block;
+    width: 100%;
+}
+
+.columnheadernamesize{
+    margin-top: 5px;
+}
+
+.columnheaderaddcontainer {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.columnheaderadd {
+    display: inline-block;
+    width: 100%;
+}
+
+.cardcontainer {
+}
+
+.cardcontentcontainer {
+    display: inline-block;
+    width: 95%;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+    border-bottom: 2px solid #bdbdbd;
+    border-right: 1px solid #bdbdbd;
+    border-radius: 5px;
+}
+
+.cardnamesize {
+    margin-top: -1px;
+}
+
+.cardrow {
+    margin-left: -30px;
+    margin-right: -30px;
+}
+
+.columnheaderaddsize{
+    margin-top: 5px;
+}
+
+.carddescriptioncontainer {
+    padding: 20px;
+}
