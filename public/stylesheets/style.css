@@ -79,3 +79,12 @@ li.ui-sortable-helper{
 .cardcolumncontainer {
     height: 100%;
 }
+
+.cardplaceholder {
+    list-style-type: none;
+    border: 2px dashed;
+    display: inline-block;
+    width: 95%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}

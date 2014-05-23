@@ -24,7 +24,11 @@
     <script>
         $(function() {
             $( "#cardstodo, #cardsdoing, #cardsdone" ).sortable({
-                connectWith: ".connectedSortable"
+                connectWith: ".connectedSortable",
+                placeholder: "cardplaceholder",
+                start: function(e, ui ){
+                    ui.placeholder.height($('.cardcontentcontainer').outerHeight());
+                }
             }).disableSelection();
         });
     </script>
@@ -47,7 +51,7 @@
                         </h3>
                     </div>
                     <ul id="cardstodo" class="cardlist connectedSortable">
-                        <li class="card">
+                        <li class="card ui-state-default">
                             <div class="cardcontentcontainer">
                                 <h4 class="cardnamesize"><span class="label label-default columnheadername">Sample Card</span></h4>
                                 <div class="carddescriptioncontainer">
@@ -55,7 +59,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="card">
+                        <li class="card ui-state-default">
                             <div class="cardcontentcontainer">
                                 <h4 class="cardnamesize"><span class="label label-default columnheadername">Sample card with very long...</span></h4>
                                 <div class="carddescriptioncontainer">
@@ -105,7 +109,7 @@
                         </h3>
                     </div>
                     <ul id="cardsdone" class="cardlist connectedSortable">
-                        <li class="card">
+                        <li class="card ui-state-default">
                             <div class="cardcontentcontainer">
                                 <h4 class="cardnamesize"><span class="label label-default columnheadername">Sample Card</span></h4>
                                 <div class="carddescriptioncontainer">
