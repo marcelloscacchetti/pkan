@@ -51,6 +51,8 @@
 
 .cardnamesize {
     margin-top: -1px;
+    cursor: move;
+    cursor: hand;
 }
 
 .columnheaderaddsize{
@@ -59,6 +61,10 @@
 
 .carddescriptioncontainer {
     padding: 20px;
+}
+
+li.ui-sortable-helper{
+    cursor: move;
 }
 
 .card {
