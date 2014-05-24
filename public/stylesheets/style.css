@@ -57,6 +57,7 @@
 
 .columnheaderaddsize{
     margin-top: 5px;
+    cursor:pointer;cursor:hand;
 }
 
 .carddescriptioncontainer {
@@ -87,4 +88,23 @@ li.ui-sortable-helper{
     width: 95%;
     margin-bottom: 10px;
     border-radius: 5px;
+}
+
+.cardformaddbutton {
+    float: right;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.cardformaddelement {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.cardformaddclosebutton {
+    font-size: 18px;
+    color: red;
+    float: right;
+    margin: 5px;
+    cursor:pointer;cursor:hand;
 }

@@ -31,6 +31,82 @@
                 }
             }).disableSelection();
         });
+
+        $(document).ready(function(){
+            // Handle click on add card button
+            $('.addcardbutton').click(function(){
+                var buttonId = $(this).attr('id');
+                // Create the new card element
+                var cardContainer = $('<li class="card ui-state-default">' +
+                                        '<div class="cardcontentcontainer">' +
+                                            '<div class="cardformaddheader">' +
+                                                '<span class="glyphicon glyphicon-remove-sign cardformaddclosebutton"></span>' +
+                                            '</div>'+
+                                            '<form role="form">' +
+                                                '<div class="form-group">' +
+                                                    '<input type="text" class="form-control cardformaddelement" id="cardTitle" placeholder="Card title...">' +
+                                                '</div>' +
+                                                '<div class="form-group">' +
+                                                    '<textarea class="form-control cardformaddelement" rows="3" id="cardDescription" placeholder="Card description..."></textarea>' +
+                                                '</div>' +
+                                                '<button class="btn btn-primary cardformaddbutton">Add</button>' +
+                                            '</form>' +
+                                        '</div>' +
+                                      '</li>');
+
+                // Append the new card to the correct column
+                switch(buttonId){
+                    case 'addcardtodobutton':
+                        $('#cardstodo').append(cardContainer);
+                        break;
+                    case 'addcarddoingbutton':
+                        $('#cardsdoing').append(cardContainer);
+                        break;
+                    case 'addcarddonebutton':
+                        $('#cardsdone').append(cardContainer);
+                        break;
+                }
+            });
+
+            // Handle click on card add form add button
+            $(document.body).on('click', '.cardformaddbutton', function(event){
+                // Prevent the button from submitting the form
+                event.preventDefault();
+                var cardTitle = $(this).siblings('div').find('#cardTitle').val();
+                var cardDescription = $(this).siblings('div').find('#cardDescription').val();
+
+                // Create a new card
+                var newCard = createCard(cardTitle, cardDescription);
+
+                // Add the newly created card to the correct column
+                getClosestColumn($(this)).append(newCard);
+
+                // Remove the add new card container
+                $(this).closest('.card').remove();
+            });
+
+            // Handle click on card add form close button
+            $('.cardformaddclosebutton').click(function(){
+                // Remove the add new card container
+                $(this).closest('.card').remove();
+
+            });
+        });
+
+        function createCard(title, description){
+            // Create the new card element
+            var card = $('<li class="card ui-state-default">' +
+                            '<div class="cardcontentcontainer">' +
+                                '<h4 class="cardnamesize"><span class="label label-default columnheadername">'+ title +'</span></h4>' +
+                                '<div class="carddescriptioncontainer">'+ description +'</div>' +
+                            '</div>' +
+                          '</li>');
+            return card;
+        }
+
+        function getClosestColumn(element){
+            return element.closest('ul');
+        }
     </script>
 
 </head>
@@ -47,7 +123,7 @@
                     </div>
                     <div class="col-md-2 columnheaderaddcontainer">
                         <h3 class="columnheaderaddsize">
-                            <span class="label label-primary columnheaderadd">+</span>
+                            <span id="addcardtodobutton" class="label label-primary columnheaderadd addcardbutton">+</span>
                         </h3>
                     </div>
                     <ul id="cardstodo" class="cardlist connectedSortable">
@@ -84,7 +160,7 @@
                     </div>
                     <div class="col-md-2 columnheaderaddcontainer">
                         <h3 class="columnheaderaddsize">
-                            <span class="label label-primary columnheaderadd">+</span>
+                            <span id="addcarddoingbutton" class="label label-primary columnheaderadd addcardbutton">+</span>
                         </h3>
                     </div>
                     <ul id="cardsdoing" class="cardlist connectedSortable">
@@ -105,7 +181,7 @@
                     </div>
                     <div class="col-md-2 columnheaderaddcontainer">
                         <h3 class="columnheaderaddsize">
-                            <span class="label label-primary columnheaderadd">+</span>
+                            <span id="addcarddonebutton" class="label label-primary columnheaderadd addcardbutton">+</span>
                         </h3>
                     </div>
                     <ul id="cardsdone" class="cardlist connectedSortable">
