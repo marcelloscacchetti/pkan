@@ -5,36 +5,35 @@
         <text>P-Kan%0Ahttp%3A//pkan</text>
       </controlProperties>
     </control>
-    <control controlID="2" controlTypeID="com.balsamiq.mockups::Canvas" x="385" y="132" w="219" h="478" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1"/>
-    <control controlID="3" controlTypeID="com.balsamiq.mockups::Canvas" x="624" y="132" w="219" h="478" measuredW="100" measuredH="70" zOrder="2" locked="false" isInGroup="-1"/>
-    <control controlID="4" controlTypeID="com.balsamiq.mockups::Canvas" x="863" y="132" w="219" h="478" measuredW="100" measuredH="70" zOrder="3" locked="false" isInGroup="-1"/>
-    <control controlID="8" controlTypeID="com.balsamiq.mockups::Component" x="391" y="137" w="207" h="19" measuredW="207" measuredH="19" zOrder="4" locked="false" isInGroup="-1">
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Canvas" x="385" y="149" w="219" h="478" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1"/>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Canvas" x="624" y="149" w="219" h="478" measuredW="100" measuredH="70" zOrder="2" locked="false" isInGroup="-1"/>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Canvas" x="863" y="149" w="219" h="478" measuredW="100" measuredH="70" zOrder="3" locked="false" isInGroup="-1"/>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Component" x="391" y="154" w="207" h="19" measuredW="207" measuredH="19" zOrder="4" locked="false" isInGroup="-1">
       <controlProperties>
         <override controlID="0" x="0" y="0" w="207" h="19">
           <text>%7Bcolor%3A%23ffffff%7DTODO%7Bcolor%7D</text>
         </override>
-        <override controlID="-1"/>
         <src>./assets/Bootstrap.bmml#tb-label-info</src>
       </controlProperties>
     </control>
-    <control controlID="9" controlTypeID="com.balsamiq.mockups::Component" x="630" y="137" w="207" h="19" measuredW="207" measuredH="19" zOrder="5" locked="false" isInGroup="-1">
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Component" x="630" y="154" w="207" h="19" measuredW="207" measuredH="19" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
         <override controlID="0" x="0" y="0" w="207" h="19">
           <text>%7Bcolor%3A%23ffffff%7DDOING%7Bcolor%7D</text>
         </override>
-        <src>./assets/Bootstrap.bmml#tb-label-info</src>
-      </controlProperties>
-    </control>
-    <control controlID="10" controlTypeID="com.balsamiq.mockups::Component" x="869" y="137" w="207" h="19" measuredW="207" measuredH="19" zOrder="6" locked="false" isInGroup="-1">
-      <controlProperties>
-        <override controlID="0" x="0" y="0" w="207" h="19">
-          <text>%7Bcolor%3A%23ffffff%7DDONE%7Bcolor%7D</text>
-        </override>
         <override controlID="-1"/>
         <src>./assets/Bootstrap.bmml#tb-label-info</src>
       </controlProperties>
     </control>
-    <control controlID="22" controlTypeID="__group__" x="397" y="242" w="195" h="76" measuredW="195" measuredH="76" zOrder="7" locked="false" isInGroup="-1">
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::Component" x="869" y="154" w="207" h="19" measuredW="207" measuredH="19" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <override controlID="0" x="0" y="0" w="207" h="19">
+          <text>%7Bcolor%3A%23ffffff%7DDONE%7Bcolor%7D</text>
+        </override>
+        <src>./assets/Bootstrap.bmml#tb-label-info</src>
+      </controlProperties>
+    </control>
+    <control controlID="22" controlTypeID="__group__" x="397" y="259" w="195" h="76" measuredW="195" measuredH="76" zOrder="7" locked="false" isInGroup="-1">
       <groupChildrenDescriptors>
         <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="195" h="76" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="22"/>
         <control controlID="1" controlTypeID="com.balsamiq.mockups::Component" x="5" y="6" w="185" h="19" measuredW="185" measuredH="19" zOrder="1" locked="false" isInGroup="22">
@@ -42,6 +41,7 @@
             <override controlID="0" x="0" y="0" w="185" h="19">
               <text>Sample%20Card%20with%20very%20long...</text>
             </override>
+            <override controlID="-1"/>
             <src>./assets/Bootstrap.bmml#tb-label</src>
           </controlProperties>
         </control>
@@ -53,7 +53,7 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="27" controlTypeID="__group__" x="397" y="161" w="195" h="76" measuredW="195" measuredH="76" zOrder="8" locked="false" isInGroup="-1">
+    <control controlID="27" controlTypeID="__group__" x="397" y="178" w="195" h="76" measuredW="195" measuredH="76" zOrder="8" locked="false" isInGroup="-1">
       <groupChildrenDescriptors>
         <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="195" h="76" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="27"/>
         <control controlID="1" controlTypeID="com.balsamiq.mockups::Component" x="5" y="6" w="185" h="19" measuredW="185" measuredH="19" zOrder="1" locked="false" isInGroup="27">
@@ -61,7 +61,6 @@
             <override controlID="0" x="0" y="0" w="185" h="19">
               <text>Sample%20Card</text>
             </override>
-            <override controlID="-1"/>
             <src>./assets/Bootstrap.bmml#tb-label</src>
           </controlProperties>
         </control>
@@ -73,7 +72,7 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="35" controlTypeID="__group__" x="493" y="324" w="198" h="79" measuredW="198" measuredH="79" zOrder="10" locked="false" isInGroup="-1">
+    <control controlID="35" controlTypeID="__group__" x="493" y="341" w="198" h="79" measuredW="198" measuredH="79" zOrder="10" locked="false" isInGroup="-1">
       <groupChildrenDescriptors>
         <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="3" y="9" w="195" h="70" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="35">
           <controlProperties>
@@ -82,90 +81,6 @@
           </controlProperties>
         </control>
         <control controlID="1" controlTypeID="__group__" x="0" y="0" w="195" h="76" measuredW="195" measuredH="76" zOrder="1" locked="false" isInGroup="35">
-          <groupChildrenDescriptors>
-            <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="195" h="76" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="1"/>
-            <control controlID="1" controlTypeID="com.balsamiq.mockups::Component" x="5" y="6" w="-1" h="-1" measuredW="185" measuredH="19" zOrder="1" locked="false" isInGroup="1">
-              <controlProperties>
-                <override controlID="0" x="0" y="0" w="185" h="19">
-                  <text>Sample%20Card%20dragging</text>
-                </override>
-                <override controlID="-1"/>
-                <src>./assets/Bootstrap.bmml#tb-label</src>
-              </controlProperties>
-            </control>
-            <control controlID="2" controlTypeID="com.balsamiq.mockups::TextArea" x="10" y="27" w="174" h="44" measuredW="200" measuredH="140" zOrder="2" locked="false" isInGroup="1">
-              <controlProperties>
-                <borderColor>16777215</borderColor>
-                <text>Sample%20card%20%20being%20dragged</text>
-              </controlProperties>
-            </control>
-            <control controlID="3" controlTypeID="com.balsamiq.mockups::Icon" x="171" y="3" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="3" locked="false" isInGroup="1">
-              <controlProperties>
-                <icon>HandClosedIcon%7Csmall</icon>
-              </controlProperties>
-            </control>
-          </groupChildrenDescriptors>
-        </control>
-      </groupChildrenDescriptors>
-    </control>
-    <control controlID="36" controlTypeID="com.balsamiq.mockups::Canvas" x="630" y="324" w="207" h="79" measuredW="100" measuredH="70" zOrder="9" locked="false" isInGroup="-1">
-      <controlProperties>
-        <borderStyle>roundedDotted</borderStyle>
-      </controlProperties>
-    </control>
-    <control controlID="37" controlTypeID="__group__" x="875" y="161" w="195" h="76" measuredW="195" measuredH="76" zOrder="11" locked="false" isInGroup="-1">
-      <groupChildrenDescriptors>
-        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="195" h="76" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="37"/>
-        <control controlID="1" controlTypeID="com.balsamiq.mockups::Component" x="5" y="6" w="185" h="19" measuredW="185" measuredH="19" zOrder="1" locked="false" isInGroup="37">
-          <controlProperties>
-            <override controlID="0" x="0" y="0" w="185" h="19">
-              <text>Sample%20Card</text>
-            </override>
-            <src>./assets/Bootstrap.bmml#tb-label</src>
-          </controlProperties>
-        </control>
-        <control controlID="2" controlTypeID="com.balsamiq.mockups::TextArea" x="10" y="27" w="174" h="44" measuredW="200" measuredH="140" zOrder="2" locked="false" isInGroup="37">
-          <controlProperties>
-            <borderColor>16777215</borderColor>
-            <text>Sample%20card%20description</text>
-          </controlProperties>
-        </control>
-      </groupChildrenDescriptors>
-    </control>
-    <control controlID="38" controlTypeID="__group__" x="875" y="325" w="195" h="76" measuredW="195" measuredH="76" zOrder="12" locked="false" isInGroup="-1">
-      <groupChildrenDescriptors>
-        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="195" h="76" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="38"/>
-        <control controlID="1" controlTypeID="com.balsamiq.mockups::Component" x="5" y="6" w="185" h="19" measuredW="185" measuredH="19" zOrder="1" locked="false" isInGroup="38">
-          <controlProperties>
-            <override controlID="0" x="0" y="0" w="185" h="19">
-              <text>Sample%20Card%20with%20very%20long...</text>
-            </override>
-            <override controlID="-1"/>
-            <src>./assets/Bootstrap.bmml#tb-label</src>
-          </controlProperties>
-        </control>
-        <control controlID="2" controlTypeID="com.balsamiq.mockups::TextArea" x="10" y="27" w="174" h="44" measuredW="200" measuredH="140" zOrder="2" locked="false" isInGroup="38">
-          <controlProperties>
-            <borderColor>16777215</borderColor>
-            <text>Sample%20card%20%20with%20a%20very%20long%20description%20that...</text>
-          </controlProperties>
-        </control>
-      </groupChildrenDescriptors>
-    </control>
-    <control controlID="39" controlTypeID="com.balsamiq.mockups::Canvas" x="869" y="241" w="207" h="79" measuredW="100" measuredH="70" zOrder="13" locked="false" isInGroup="-1">
-      <controlProperties>
-        <borderStyle>roundedDotted</borderStyle>
-      </controlProperties>
-    </control>
-    <control controlID="40" controlTypeID="__group__" x="901" y="267" w="198" h="79" measuredW="198" measuredH="79" zOrder="14" locked="false" isInGroup="-1">
-      <groupChildrenDescriptors>
-        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="3" y="9" w="195" h="70" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="40">
-          <controlProperties>
-            <borderColor>6710886</borderColor>
-            <color>6710886</color>
-          </controlProperties>
-        </control>
-        <control controlID="1" controlTypeID="__group__" x="0" y="0" w="195" h="76" measuredW="195" measuredH="76" zOrder="1" locked="false" isInGroup="40">
           <groupChildrenDescriptors>
             <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="195" h="76" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="1"/>
             <control controlID="1" controlTypeID="com.balsamiq.mockups::Component" x="5" y="6" w="185" h="19" measuredW="185" measuredH="19" zOrder="1" locked="false" isInGroup="1">
@@ -191,22 +106,155 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="42" controlTypeID="com.balsamiq.mockups::Icon" x="575" y="135" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="15" locked="false" isInGroup="-1">
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::Canvas" x="630" y="341" w="207" h="79" measuredW="100" measuredH="70" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>roundedDotted</borderStyle>
+      </controlProperties>
+    </control>
+    <control controlID="37" controlTypeID="__group__" x="875" y="178" w="195" h="76" measuredW="195" measuredH="76" zOrder="11" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="195" h="76" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="37"/>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Component" x="5" y="6" w="185" h="19" measuredW="185" measuredH="19" zOrder="1" locked="false" isInGroup="37">
+          <controlProperties>
+            <override controlID="0" x="0" y="0" w="185" h="19">
+              <text>Sample%20Card</text>
+            </override>
+            <override controlID="-1"/>
+            <src>./assets/Bootstrap.bmml#tb-label</src>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::TextArea" x="10" y="27" w="174" h="44" measuredW="200" measuredH="140" zOrder="2" locked="false" isInGroup="37">
+          <controlProperties>
+            <borderColor>16777215</borderColor>
+            <text>Sample%20card%20description</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="38" controlTypeID="__group__" x="875" y="342" w="195" h="76" measuredW="195" measuredH="76" zOrder="12" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="195" h="76" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="38"/>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Component" x="5" y="6" w="185" h="19" measuredW="185" measuredH="19" zOrder="1" locked="false" isInGroup="38">
+          <controlProperties>
+            <override controlID="0" x="0" y="0" w="185" h="19">
+              <text>Sample%20Card%20with%20very%20long...</text>
+            </override>
+            <src>./assets/Bootstrap.bmml#tb-label</src>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::TextArea" x="10" y="27" w="174" h="44" measuredW="200" measuredH="140" zOrder="2" locked="false" isInGroup="38">
+          <controlProperties>
+            <borderColor>16777215</borderColor>
+            <text>Sample%20card%20%20with%20a%20very%20long%20description%20that...</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="39" controlTypeID="com.balsamiq.mockups::Canvas" x="869" y="258" w="207" h="79" measuredW="100" measuredH="70" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>roundedDotted</borderStyle>
+      </controlProperties>
+    </control>
+    <control controlID="40" controlTypeID="__group__" x="901" y="284" w="198" h="79" measuredW="198" measuredH="79" zOrder="14" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="3" y="9" w="195" h="70" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="40">
+          <controlProperties>
+            <borderColor>6710886</borderColor>
+            <color>6710886</color>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="__group__" x="0" y="0" w="195" h="76" measuredW="195" measuredH="76" zOrder="1" locked="false" isInGroup="40">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="195" h="76" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="1"/>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Component" x="5" y="6" w="185" h="19" measuredW="185" measuredH="19" zOrder="1" locked="false" isInGroup="1">
+              <controlProperties>
+                <override controlID="0" x="0" y="0" w="185" h="19">
+                  <text>Sample%20Card%20dragging</text>
+                </override>
+                <override controlID="-1"/>
+                <src>./assets/Bootstrap.bmml#tb-label</src>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::TextArea" x="10" y="27" w="174" h="44" measuredW="200" measuredH="140" zOrder="2" locked="false" isInGroup="1">
+              <controlProperties>
+                <borderColor>16777215</borderColor>
+                <text>Sample%20card%20%20being%20dragged</text>
+              </controlProperties>
+            </control>
+            <control controlID="3" controlTypeID="com.balsamiq.mockups::Icon" x="171" y="3" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="3" locked="false" isInGroup="1">
+              <controlProperties>
+                <icon>HandClosedIcon%7Csmall</icon>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="42" controlTypeID="com.balsamiq.mockups::Icon" x="575" y="152" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="15" locked="false" isInGroup="-1">
       <controlProperties>
         <color>16777215</color>
         <icon>SquaredPlusIcon%7Csmall</icon>
       </controlProperties>
     </control>
-    <control controlID="43" controlTypeID="com.balsamiq.mockups::Icon" x="814" y="135" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="16" locked="false" isInGroup="-1">
+    <control controlID="43" controlTypeID="com.balsamiq.mockups::Icon" x="814" y="152" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="16" locked="false" isInGroup="-1">
       <controlProperties>
         <color>16777215</color>
         <icon>SquaredPlusIcon%7Csmall</icon>
       </controlProperties>
     </control>
-    <control controlID="44" controlTypeID="com.balsamiq.mockups::Icon" x="1056" y="135" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="17" locked="false" isInGroup="-1">
+    <control controlID="44" controlTypeID="com.balsamiq.mockups::Icon" x="1056" y="152" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="17" locked="false" isInGroup="-1">
       <controlProperties>
         <color>16777215</color>
         <icon>SquaredPlusIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="46" controlTypeID="com.balsamiq.mockups::Canvas" x="636" y="178" w="195" h="130" measuredW="100" measuredH="70" zOrder="18" locked="false" isInGroup="-1"/>
+    <control controlID="53" controlTypeID="com.balsamiq.mockups::Arrow" x="761" y="104" w="63" h="40" measuredW="150" measuredH="100" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>1</backgroundAlpha>
+        <curvature>1</curvature>
+        <direction>top</direction>
+        <leftArrow>false</leftArrow>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="56" controlTypeID="com.balsamiq.mockups::RoundButton" x="810" y="147" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0</backgroundAlpha>
+        <size>20</size>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="59" controlTypeID="com.balsamiq.mockups::Component" x="779" y="275" w="45" h="27" measuredW="45" measuredH="27" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <override controlID="0">
+          <menuIcon>false</menuIcon>
+          <text>Add</text>
+        </override>
+        <src>$ACCOUNT/assets/Bootstrap.bmml#tb-btn-primary</src>
+      </controlProperties>
+    </control>
+    <control controlID="60" controlTypeID="__group__" x="643" y="209" w="181" h="64" measuredW="181" measuredH="64" zOrder="19" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::TextInput" x="0" y="0" w="181" h="-1" measuredW="79" measuredH="26" zOrder="0" locked="false" isInGroup="60"/>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::TextArea" x="0" y="27" w="181" h="37" measuredW="200" measuredH="140" zOrder="1" locked="false" isInGroup="60"/>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="9" y="3" w="-1" h="-1" measuredW="60" measuredH="21" zOrder="2" locked="false" isInGroup="60">
+          <controlProperties>
+            <color>13421772</color>
+            <text>card%20title...</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="9" y="35" w="-1" h="-1" measuredW="104" measuredH="21" zOrder="3" locked="false" isInGroup="60">
+          <controlProperties>
+            <color>13421772</color>
+            <text>card%20description...</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="62" controlTypeID="com.balsamiq.mockups::Icon" x="804" y="183" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>CircledXIcon%7Csmall</icon>
       </controlProperties>
     </control>
   </controls>
